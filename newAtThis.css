@@ -1,0 +1,83 @@
+.TheBox{
+        color: gold;
+        margin-left:40px;
+        background: rgba(255,0,0,.5);
+        width: 320px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        border-left:2px solid black;
+        border-right:2px solid black;
+        min-height:100%;
+        float:left;
+        margin-bottom:40px;
+        position:static;
+        height: 100%;
+    }
+   .TheBackPage{
+        background: rgba(255,255,255,.5);
+        margin-left:360px;
+        width: 1000px;
+        border-right:2px solid black;
+        font-size:24px;
+        margin-bottom:40px;
+        min-height:100%;
+        position:absolute;
+        color: rgb(0,0,0);
+    }
+    .ThePage h1{
+        font-size:48px;
+    }
+    .ThePage{
+        margin-left:20px;
+        margin-bottom:40px;
+    }
+    .TheBody{
+        margin-left:20px;
+        margin-bottom:40px;
+    }
+    .nav li {
+        display: inline;
+    }
+    .nav a {
+        color: rgb(0,255,0);
+        font-size: 11px;
+        font-weight: bold;
+        padding: 14px 10px;
+        text-transform: uppercase;
+    }
+    .nav pull-left{
+        float: left!important;
+        padding: 12px;
+    }
+    .hover-image {
+        border: 1px solid green;
+        position: relative;
+        height: 400px;
+        width: 300px;
+        display: inline-block;
+    }
+    .hover-content {
+        float:right;
+        position: absolute;
+        height: 400px;
+        width: 300px;
+        display: block;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .hover-content:hover {
+        opacity: 1.0;
+    }
+    .hover-content span {
+        position: absolute;
+        text-align: center;
+        color: white;
+        bottom: 0;
+        display: block;
+        height: 1.3em;
+        width: 100px;
+        background-color: rgba(0, 0, 0, 0.3)
+    }
