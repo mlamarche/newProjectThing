@@ -1,4 +1,12 @@
-.TheBox{
+
+    h1{
+        font-family: Helvetica;
+    }
+    body{
+        background: url("http://autoimagesize.com/wp-content/uploads/2014/01/wallpapers-swimming-girl-black-green-dark-animals-snakes-python-other-picture-hd-dark-wallpapers.jpg");
+        background-attachment: fixed;
+    }
+    .TheBox{
         color: gold;
         margin-left:40px;
         background: rgba(255,0,0,.5);
@@ -14,7 +22,7 @@
         position:static;
         height: 100%;
     }
-   .TheBackPage{
+    .TheBackPage{
         background: rgba(255,255,255,.5);
         margin-left:360px;
         width: 1000px;
@@ -35,22 +43,23 @@
     .TheBody{
         margin-left:20px;
         margin-bottom:40px;
+        float:left;
     }
-    .nav li {
+   .nav li{
         display: inline;
     }
-    .nav a {
+    .nav a{
         color: rgb(0,255,0);
         font-size: 11px;
         font-weight: bold;
         padding: 14px 10px;
         text-transform: uppercase;
     }
-    .nav pull-left{
+   .nav pull-left{
         float: left!important;
         padding: 12px;
     }
-    .hover-image {
+   .hover-image{
         border: 1px solid green;
         position: relative;
         height: 400px;
@@ -68,10 +77,10 @@
         opacity: 0;
         transition: opacity 1s;
     }
-    .hover-content:hover {
+    .hover-content:hover{
         opacity: 1.0;
     }
-    .hover-content span {
+   .hover-content span{
         position: absolute;
         text-align: center;
         color: white;
@@ -80,4 +89,49 @@
         height: 1.3em;
         width: 100px;
         background-color: rgba(0, 0, 0, 0.3)
+    }
+    .bottom{
+        border:2px solid green;
+        background-color:black;
+        position:fixed;
+        bottom:0;
+        width:100%;
+    }
+    .button1{
+        background-color:white;
+        color:red;
+        text-decoration:none;
+        width:33%;
+        text-align:center;
+    }
+    .button2{
+        background-color:red;
+        color:gold;
+        text-decoration:none;
+        width:33%;
+        text-align:center;
+    }
+    .button3{
+        background-color:blue;
+        color:green;
+        text-decoration:none;
+        width:34%;
+        clear:both;
+        text-align:center;
+    }
+   .thing li{
+        display: inline-block;
+    }
+    .thing a{
+        font-size: 11px;
+        font-weight: bold;
+        padding: 14px 10px;
+        text-transform: uppercase;
+        text-decoration:none;
+    }
+   .bottom thing{
+        float: left!important;
+        padding: 12px;
+        text-decoration:none;
+
     }
